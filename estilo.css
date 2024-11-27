@@ -1,0 +1,274 @@
+header{
+       background-color: black;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       align-items: center;
+       justify-items: center;
+}
+ul{
+	display: inline-flex;
+	font-size: 30px;
+}
+li{
+	list-style: none;
+	padding: 5px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+	justify-items:  center;
+	padding: 50px; 
+}
+.boxcomprar{
+    background-color: black;
+    width: 300px;
+    border: black solid 3px;
+    border-radius: 5px;
+    text-align: center;
+    height: 550px;
+    display: grid;
+    align-items: center;
+    justify-items:  center;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}	
+button{
+	background-color: #faf7ff;
+	border-radius: 5px;
+	width: 100px;
+	height: 50px;
+}	
+footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items:  center; 
+    color: white;
+    text-align: center;
+}
+.boxlink{
+    display: inline-block;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #fcfffc;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #afadaf;
+}
+
+.formulario {
+ display: flex;
+ flex-direction: column;
+ }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+.tabla-carrito {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.tabla-carrito th, .tabla-carrito td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla-carrito th {
+    background-color: #afadaf;
+    color: white;
+    font-size: 16px;
+}
+
+.tabla-carrito td {
+    font-size: 14px;
+}
+
+
+.tabla-carrito img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.tabla-carrito tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tabla-carrito td:last-child {
+    text-align: right;
+}
+
+
+@media (max-width: 768px) {
+    .tabla-carrito {
+        width: 100%;
+    }
+
+    .tabla-carrito th, .tabla-carrito td {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .tabla-carrito img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#boxproductos {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.boxdetalle {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.boxdetalle > div {
+    flex: 1;
+}
+
+.boxdetalle img {
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+.boxdescripcion {
+    margin-left: 20px;
+    flex: 2;
+}
+
+.precio {
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.boxcontador {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.boxcontador button {
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #4e4e4e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.boxcontador button:hover {
+    background-color: #5a5c5b;
+}
+
+#contarproducto {
+    font-size: 22px;
+    width: 40px;
+    text-align: center;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #424242;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #515152;
+}
+
+.alerta {
+    color: #fdc4ec;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(231, 76, 60, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
